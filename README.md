@@ -40,16 +40,18 @@ You need to define the **nodeAddress** & **expiration** parameters that will be 
 in the hardhat.config.js file. For example:
 
 ```json
-lacchain: {
-    url: 'http://34.69.22.82',
-    nodeAddress: "0xd00e6624a73f88b39f82ab34e8bf2b4d226fd768",
-    expiration: 1736394529,
-    gasPrice: 0,
-    accounts: [
-        '0x8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63',
-        '0xc87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3',
-        '0xae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f',
-    ]
+{
+   "lacchain": {
+      "url": "http://34.69.22.82",
+      "nodeAddress": "0xd00e6624a73f88b39f82ab34e8bf2b4d226fd768",
+      "expiration": 1736394529,
+      "gasPrice": 0,
+      "accounts": [
+         "0x8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63",
+         "0xc87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3",
+         "0xae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f"
+      ]
+   }
 }
 ```
 
